@@ -1,0 +1,58 @@
+:root{
+    --lightRed: hsl(0, 100%, 67%);
+    --orangeyYellow: hsl(39, 100%, 56%);
+    --greenTeal: hsl(166, 100%, 37%);
+    --cobaltBlue: hsl(234, 85%, 45%);
+    --lightSlateBlue-background: hsl(252, 100%, 67%);
+    --lightRoyalBlue-background: hsl(241, 81%, 54%);
+    --violetBlue-circle: hsla(256, 72%, 46%, 1);
+    --persianBlue-circle: hsla(241, 72%, 46%, 0);
+    --white: hsl(0, 0%, 100%);
+    --paleBlue: hsl(221, 100%, 96%);
+    --lightLavender: hsl(241, 100%, 89%);
+    --darkGrayBlue: hsl(224, 30%, 27%);
+  }
+
+
+header{
+  background-color: hsl(241, 81%, 54%);
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 0 0 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+p{
+  color: var(--lightLavender);
+  width: 80%;
+}
+
+.circle{
+  border-radius: 50%;
+  background-color: var(--cobaltBlue);
+  width: 8rem;
+  height: 8rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, .great{
+  color: var(--white);
+}
+
+@media (min-width:650px) {
+  header{
+    width: 50%;
+    margin: 0;
+    height: 56vh;
+  }
+
+}

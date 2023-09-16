@@ -1,0 +1,16 @@
+
+.footer {
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem;
+  }
+
+.footer a {
+  color: hsl(228, 45%, 44%);
+  }
+
+@media (min-width:650px) {
+  .footer{
+    margin-top: 3rem;
+  }
+}  
